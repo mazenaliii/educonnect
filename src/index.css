@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(29, 122, 133, 0.23) 9.44%,
+    #f4f9fd 80.94%
+  );
+  min-height: 100vh;
+}
