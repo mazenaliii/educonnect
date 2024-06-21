@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import { useLocation } from "react-router-dom";
 import Footer from "./Footer";
+import '../App.css'
 
 const Layout = ({ children }) => {
   const location = useLocation();

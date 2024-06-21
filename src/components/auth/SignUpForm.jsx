@@ -17,7 +17,7 @@ const SignUpForm = () => {
       name: `${inputs.first_name} ${inputs.last_name}`,
       email: inputs.email,
       password: inputs.password,
-      repassword: inputs.re_password,
+      re_password: inputs.re_password,
     };
 
     try {

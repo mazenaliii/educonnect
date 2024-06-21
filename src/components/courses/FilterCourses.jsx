@@ -39,7 +39,39 @@ const FilterCourses = () => {
             { name: 'Material 25', url: 'http://example.com/material25' },
             { name: 'Material 26', url: 'http://example.com/material26' }
           ]
-        }, 
+        }, {
+          title: 'Subject 13',
+          description: 'Description for Subject 13',
+          imgSrc: 'path/to/image13.jpg',
+          materials: [
+            { name: 'Material 25', url: 'http://example.com/material25' },
+            { name: 'Material 26', url: 'http://example.com/material26' }
+          ]
+        }, {
+          title: 'Subject 13',
+          description: 'Description for Subject 13',
+          imgSrc: 'path/to/image13.jpg',
+          materials: [
+            { name: 'Material 25', url: 'http://example.com/material25' },
+            { name: 'Material 26', url: 'http://example.com/material26' }
+          ]
+        }, {
+          title: 'Subject 13',
+          description: 'Description for Subject 13',
+          imgSrc: 'path/to/image13.jpg',
+          materials: [
+            { name: 'Material 25', url: 'http://example.com/material25' },
+            { name: 'Material 26', url: 'http://example.com/material26' }
+          ]
+        }, {
+          title: 'Subject 13',
+          description: 'Description for Subject 13',
+          imgSrc: 'path/to/image13.jpg',
+          materials: [
+            { name: 'Material 25', url: 'http://example.com/material25' },
+            { name: 'Material 26', url: 'http://example.com/material26' }
+          ]
+        },
         {
           title: 'Subject 14',
           description: 'Description for Subject 14',
@@ -90,7 +122,7 @@ const FilterCourses = () => {
       ],
     },
     second: {
-     first: [
+      first: [
         {
           title: 'Subject 7',
           description: 'Description for Subject 7',
@@ -118,7 +150,7 @@ const FilterCourses = () => {
             { name: 'Material 18', url: 'http://example.com/material18' }
           ]
         },
-      ], 
+      ],
       second: [
         {
           title: 'Subject 10',
@@ -212,30 +244,57 @@ const FilterCourses = () => {
     fourth: {
       first: [
         {
-          title: 'Subject 1',
-          description: 'Description for Subject 1',
-          imgSrc: 'path/to/image1.jpg',
+          title: 'Big Data',
+          description: 'Description for Big Data',
+          imgSrc: 'https://cdn.analyticsvidhya.com/wp-content/uploads/2021/05/694991_cDO5wuA0NdevLb45zHRvog.jpeg',
           materials: [
-            { name: 'Material 1', url: 'http://example.com/material1' },
-            { name: 'Material 2', url: 'http://example.com/material2' }
+            { name: 'All PDF Materials', url: 'https://drive.google.com/drive/folders/1azWoy2bGNJA5407ss29e7xbPWb2fT36b' },
           ]
         },
         {
-          title: 'Subject 2',
-          description: 'Description for Subject 2',
-          imgSrc: 'path/to/image2.jpg',
+          title: 'Business Analytics',
+          description: 'Description for Business Analytics',
+          imgSrc: 'https://www.cio.com/wp-content/uploads/2023/05/data_analytics_risk_assessment_tracking_trends_graphs_by_ipopba_gettyimages-1150397416_2400x1600-100828857-orig-7.jpg?quality=50&strip=all&w=1024',
           materials: [
-            { name: 'Material 3', url: 'http://example.com/material3' },
-            { name: 'Material 4', url: 'http://example.com/material4' }
+            { name: 'Part 1', url: 'https://drive.google.com/file/d/1xJnngA75UaMEgOe9-cujqLBrxMtC3FDP/view?usp=drive_link' },
+            { name: 'Part 2', url: 'https://drive.google.com/file/d/1Uj7ELbC65H-wMvHCSa9d71C2hT0Tp4-7/view?usp=drive_link' },
+            { name: 'Part 3', url: 'https://drive.google.com/file/d/14hvVDiwBGMdq9YIDkl0sfi7RO70kzfUi/view?usp=drive_link' },
+            { name: 'Part 4', url: 'https://drive.google.com/file/d/10of4BsI8xE7zXCB8KxPZGb0HnE7A0IG_/view?usp=drive_link' },
+            { name: 'Part 5', url: 'https://drive.google.com/file/d/1tK8HTQJD9ciMOWg7J_F75V_-g8889CMC/view?usp=drive_link' }
           ]
         },
         {
-          title: 'Subject 3',
-          description: 'Description for Subject 3',
-          imgSrc: 'path/to/image3.jpg',
+          title: 'Data Mining',
+          description: 'Description for Data Mining',
+          imgSrc: 'https://assets.datamation.com/uploads/2023/10/dm_20231023-open-source-data-mining-tools.png',
           materials: [
-            { name: 'Material 5', url: 'http://example.com/material5' },
-            { name: 'Material 6', url: 'http://example.com/material6' }
+            { name: 'All PDF Materials', url: 'https://drive.google.com/drive/folders/1BGEErmw7jrszVPzI7QJyIo_BuN7MjTfc' },
+          ]
+        }, 
+        {
+          title: 'SW',
+          description: 'Description for SW',
+          imgSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj_Nr5ULY_VVSbvoUAEn2ELmyQjbEjC9zOQQ&s',
+          materials: [
+            { name: 'All PDF Materials', url: 'https://drive.google.com/drive/folders/1LAM71lHtYZalWybxXWxjYQs89YIXVjZ2' },
+          ]
+        },
+        {
+          title: 'Networks',
+          description: 'Description for Networks',
+          imgSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGPmrek8nAVz3qwabsVXqMz36OGofIeW5SnA&s',
+          materials: [
+            { name: 'Labs', url: 'https://drive.google.com/drive/folders/1nkTlCkJODcqHWPLd4DdVM4iNdpK6g22n?usp=drive_link' },
+            { name: 'Network', url: 'https://drive.google.com/drive/folders/1ogDwaqrxcGdIsHqVH6pmctFsYFo6layB?usp=drive_link' },
+            { name: 'All Materials', url: 'https://drive.google.com/drive/folders/1BJ0HBnDOI6Yu2GMNp5moeFAhLJDmM1ek' },
+          ]
+        },
+        {
+          title: 'IR',
+          description: 'Description for IR',
+          imgSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTScCdt_VAbF1C-OtqtmDpnB8e601D3h6sdqw&s',
+          materials: [
+            { name: 'All Materials', url: 'https://drive.google.com/drive/folders/1LTEEOnZSSsPAqLzaG2cRUqftj3WB9gQS' },
           ]
         },
       ],
@@ -277,74 +336,73 @@ const FilterCourses = () => {
     if (selectedLevel && selectedSemester) {
       const courseList = subjects[selectedLevel.toLowerCase()][selectedSemester.toLowerCase()];
       return (
-        <div className="flex flex-col md:flex-row gap-8 p-5">
-          {courseList.map((course, index) => (
-            <CourseCard
-              key={index}
-              course={course}
-              title={course.title}
-              description={course.description}
-              imgSrc={course.imgSrc}
-              onClick={() => onClick(course)}
-            />
-          ))}
-        </div>
-      );
-    }
-    return null;
-  };
-
-  return (
-    <div className="">
-      <DetailsModal
-        isOpen={isOpen}
-        onClose={closeModal}
-        title={selectedCourse?.title}
-        description={selectedCourse?.description}
-        materials={selectedCourse?.materials}
-      />
-      <div className="flex md:flex-row flex-col gap-9">
-        <div className="flex flex-col gap-9">
-          <div className="border-2 border-[#1D7A85] rounded-xl pt-2">
-            <div className="border-b border-[#1D7A85]">
-              <h2 className="font-bold text-2xl text-[#1D7A85] pl-4 pb-2">Level</h2>
-            </div>
-            {['First', 'Second', 'Third', 'Fourth'].map((level) => (
-              <div
-                key={level}
-                className={`border-b border-[#1D7A85] ${selectedLevel === level.toLowerCase() ? 'bg-[#E0F7F8]' : ''}`}
-                onClick={() => handleLevelClick(level.toLowerCase())}
-              >
-                <div className="flex justify-between items-center px-4 cursor-pointer">
-                  <h2 className="text-lg text-[#1D7A85] pl-4 py-2">{level}</h2>
-                </div>
-              </div>
+          <div className="card-container lg:w-[1000px] ">
+            {courseList.map((course, index) => (
+              <CourseCard
+                key={index}
+                course={course}
+                title={course.title}
+                description={course.description}
+                imgSrc={course.imgSrc}
+                onClick={() => onClick(course)}
+              />
             ))}
           </div>
+      )}
+      return null;
+    };
 
-          <div className="border-2 border-[#1D7A85] rounded-xl pt-2">
-            <div className="border-b border-[#1D7A85]">
-              <h2 className="font-bold text-1xl text-[#1D7A85] pl-4 pb-2">Semester</h2>
-            </div>
-            {['First', 'Second'].map((semester) => (
-              <div
-                key={semester}
-                className={`border-b border-[#1D7A85] ${selectedSemester === semester.toLowerCase() ? 'bg-[#E0F7F8]' : ''}`}
-                onClick={() => handleSemesterClick(semester.toLowerCase())}
-              >
-                <div className="flex justify-between items-center px-4 cursor-pointer">
-                  <h2 className="text-lg text-[#1D7A85] pl-4 py-2">{semester}</h2>
-                </div>
+    return (
+      <div className="">
+        <DetailsModal
+          isOpen={isOpen}
+          onClose={closeModal}
+          title={selectedCourse?.title}
+          description={selectedCourse?.description}
+          materials={selectedCourse?.materials}
+        />
+        <div className="flex md:flex-row flex-col gap-9">
+          <div className="flex flex-col gap-9">
+            <div className="border-2 border-[#1D7A85] rounded-xl pt-2">
+              <div className="border-b border-[#1D7A85]">
+                <h2 className="font-bold text-2xl text-[#1D7A85] pl-4 pb-2">Level</h2>
               </div>
-            ))}
+              {['First', 'Second', 'Third', 'Fourth'].map((level) => (
+                <div
+                  key={level}
+                  className={`border-b border-[#1D7A85] ${selectedLevel === level.toLowerCase() ? 'bg-[#E0F7F8]' : ''}`}
+                  onClick={() => handleLevelClick(level.toLowerCase())}
+                >
+                  <div className="flex justify-between items-center px-4 cursor-pointer">
+                    <h2 className="text-lg text-[#1D7A85] pl-4 py-2">{level}</h2>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <div className="border-2 border-[#1D7A85] rounded-xl pt-2">
+              <div className="border-b border-[#1D7A85]">
+                <h2 className="font-bold text-1xl text-[#1D7A85] pl-4 pb-2">Semester</h2>
+              </div>
+              {['First', 'Second'].map((semester) => (
+                <div
+                  key={semester}
+                  className={`border-b border-[#1D7A85] ${selectedSemester === semester.toLowerCase() ? 'bg-[#E0F7F8]' : ''}`}
+                  onClick={() => handleSemesterClick(semester.toLowerCase())}
+                >
+                  <div className="flex justify-between items-center px-4 cursor-pointer">
+                    <h2 className="text-lg text-[#1D7A85] pl-4 py-2">{semester}</h2>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-        <div>
-          {renderCourseCards()}
+          <div >
+            {renderCourseCards()}
+          </div>
         </div>
       </div>
-    </div>
-  );
-};
+    );
+  };
 
-export default FilterCourses;
+  export default FilterCourses;

@@ -4,6 +4,8 @@ import baseUrl from "../../api";
 
 const SignInForm = () => {
   const [inputs, setInputs] = useState({});
+  const [errorMessage, setErrorMessage] = useState('');
+
   const navigate = useNavigate();
 
   const handleChange = (e) => {
@@ -25,6 +27,7 @@ const SignInForm = () => {
       localStorage.setItem("user", JSON.stringify(data.user));
     } catch (error) {
       console.log(error);
+      setErrorMessage('Invalid email or password')
     }
   };
 
@@ -65,7 +68,9 @@ const SignInForm = () => {
             onChange={handleChange}
           />
         </fieldset>
-
+      <span className="text-red">
+        {errorMessage}
+      </span>
         <div className="flex flex-col items-center gap-4 mt-6">
           <button
             type="submit"

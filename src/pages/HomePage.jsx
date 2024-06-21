@@ -32,24 +32,7 @@ const HomePage = () => {
       <h1 className="text-3xl text-[#164863] text-center">
         Welcome to <span className="text-4xl font-bold">EduConnect</span>
       </h1>
-      {
-        loggedIn ? <CoursesList courses={courses} /> : (
-          <div className="flex justify-center items-center gap-8 text-white mt-[50px]">
-              <Link
-                to="/auth/sign-in"
-                className="py-2 px-4 text-[#164863] rounded-lg"
-              >
-                Login
-              </Link>
-              <Link
-                to="/auth/sign-up"
-                className="py-2 px-4 bg-[#164863] rounded-lg"
-              >
-                Register
-              </Link>
-            </div>
-        )
-      }
+       <CoursesList courses={courses} />
     </div>
   );
 };
