@@ -7,6 +7,7 @@ import ResourcesPage from "./pages/ResourcesPage";
 import "./App.css";
 import ProtectRoute from "./components/ProtectRoute";
 import Chat from "./pages/ChatBot";
+import ProfilePage from "./pages/Profile";
 
 function App() {
   return (
@@ -27,10 +28,18 @@ function App() {
           </ProtectRoute>
         }
       />
-      <Route path="/" element={<HomePage />} />
+       <Route
+        path="/"
+        element={
+          <ProtectRoute>
+            <HomePage />
+          </ProtectRoute>
+        }
+      />
       <Route path="/courses" element={<CoursesPage />} />
       <Route path="/resources" element={<ResourcesPage />} />
       <Route path="/chatbot" element={<Chat />} />
+      <Route path="/profile" element={<ProfilePage />} />
     </Routes>
   );
 }
