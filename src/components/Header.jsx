@@ -60,7 +60,9 @@ const Header = () => {
               >
                 Logout
               </button>
+              <a href="/profile">
               <img src="/images/profile.png" alt="profile" />
+              </a>
             </div>
           ) : (
             <div className="flex justify-center items-center gap-8 text-white">

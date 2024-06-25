@@ -28,12 +28,10 @@ function App() {
           </ProtectRoute>
         }
       />
-       <Route
+      <Route
         path="/"
         element={
-          <ProtectRoute>
-            <HomePage />
-          </ProtectRoute>
+          <HomePage />
         }
       />
       <Route path="/courses" element={<CoursesPage />} />

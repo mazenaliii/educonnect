@@ -1,4 +1,4 @@
-const CourseContent = ({ title, description, imgSrc, materialsURL, syllabusURL, ytURL }) => {
+const CourseContent = ({ title, description, imgSrc, materialsURL, ytURL }) => {
   return (
     <div className="text-[#164863] mt-[100px]">
       <div className="p-6 border border-[#164863] rounded-lg">
@@ -20,7 +20,7 @@ const CourseContent = ({ title, description, imgSrc, materialsURL, syllabusURL, 
           <a href={materialsURL} className="text-3xl underline font-bold my-4" target="_blank" rel="noopener noreferrer">Course Materials</a>
         </div>
         <div className="mt-8 border rounded p-6 border border-[#164863]">
-          <a href={syllabusURL} className="text-3xl underline font-bold my-4" target="_blank" rel="noopener noreferrer">Course Syllabus</a>
+          <a href={ytURL} className="text-3xl underline font-bold my-4" target="_blank" rel="noopener noreferrer">Course Syllabus</a>
         </div>
       </div>
     </div>
